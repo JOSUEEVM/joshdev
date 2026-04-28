@@ -21,27 +21,44 @@
     </div>
   </section>
 
-  <!-- CONTACTO -->
-  <section id="contacto" class="section contact-section">
-    <div class="section-header">
-      <h2>CONTÁCTAME</h2>
+  <!-- SOBRE MÍ -->
+  <section id="sobre-mi" class="section about-section">
+    <div class="section-header center">
+      <h2>SOBRE MÍ</h2>
       <div class="divider"></div>
-      <p>Conéctate conmigo</p>
+      <p>
+        Soy Josue Emanuel Varguez Marin, diseñador y desarrollador web enfocado
+        en crear páginas modernas, responsivas y funcionales.
+      </p>
+    </div>
+  </section>
+
+  <!-- SERVICIOS -->
+  <section id="servicios" class="section services-section">
+    <div class="section-header center">
+      <h2>SERVICIOS</h2>
+      <div class="divider"></div>
+      <p>Lo que puedo hacer por tu negocio</p>
     </div>
 
-    <div class="social-container">
-      <a
-        *ngFor="let social of socialLinks"
-        [href]="social.url"
-        target="_blank"
-        rel="noopener noreferrer"
-        class="social-icon"
-        [ngClass]="social.className"
-        [attr.aria-label]="social.name"
-        [title]="social.name"
-      >
-        <i [class]="social.icon"></i>
-      </a>
+    <div class="services-grid">
+      <article class="service-card">
+        <i class="bi bi-code-slash service-icon"></i>
+        <h3>Desarrollo Web</h3>
+        <p>Páginas web modernas, rápidas y responsivas.</p>
+      </article>
+
+      <article class="service-card">
+        <i class="bi bi-phone service-icon"></i>
+        <h3>Diseño Responsive</h3>
+        <p>Tu página adaptada para celular, tablet y computadora.</p>
+      </article>
+
+      <article class="service-card">
+        <i class="bi bi-palette service-icon"></i>
+        <h3>Diseño UI</h3>
+        <p>Interfaces limpias, atractivas y fáciles de usar.</p>
+      </article>
     </div>
   </section>
 
@@ -73,13 +90,45 @@
 
     <div class="projects-grid">
       <article class="project-card" *ngFor="let project of filteredProjects">
-        <div class="project-image">
-          <img [src]="project.image" [alt]="project.title" />
-        </div>
+        <a
+  [href]="project.url"
+  target="_blank"
+  rel="noopener noreferrer"
+  class="project-link"
+>
+  <div class="project-image">
+    <img [src]="project.image" [alt]="project.title" />
+  </div>
+</a>
+
         <div class="project-info">
           <h3>{{ project.title }}</h3>
         </div>
       </article>
+    </div>
+  </section>
+
+  <!-- CONTACTO -->
+  <section id="contacto" class="section contact-section">
+    <div class="section-header center">
+      <h2>CONTÁCTAME</h2>
+      <div class="divider"></div>
+      <p>Conéctate conmigo</p>
+    </div>
+
+    <div class="social-container">
+      <a
+        *ngFor="let social of socialLinks"
+        [href]="social.url"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="social-icon"
+        [ngClass]="social.className"
+        [attr.aria-label]="social.name"
+        [title]="social.name"
+      >
+        <i [class]="social.icon"></i>
+      </a>
     </div>
   </section>
 </main>

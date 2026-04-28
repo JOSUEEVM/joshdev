@@ -12,6 +12,7 @@ interface ProjectItem {
   title: string;
   image: string;
   category: 'web' | 'mobile';
+  url: string;
 }
 
 @Component({
@@ -59,34 +60,40 @@ export class App {
 
   projects: ProjectItem[] = [
     {
-      title: 'E-Commerce Store',
-      image: 'assets/projects/web-1.jpg',
-      category: 'web'
+      title: 'DinosPizzas',
+      image: 'assets/projects/imagen1.png',
+      category: 'web',
+      url: 'https://josueevm.github.io/DINOSPIZZA/menu'
     },
     {
-      title: 'Corporate Website',
-      image: 'assets/projects/web-2.jpg',
-      category: 'web'
+      title: 'Herbolario',
+      image: 'assets/projects/imagen2.png',
+      category: 'web',
+      url: 'https://josueevm.github.io/Herbolario/'
     },
     {
       title: 'Creative Agency',
       image: 'assets/projects/web-3.jpg',
-      category: 'web'
+      category: 'web',
+      url: 'https://josueevm.github.io/DINOSPIZZA/menu'
     },
     {
       title: 'App Design',
       image: 'assets/projects/mobile-1.jpg',
-      category: 'mobile'
+      category: 'mobile',
+      url: 'https://josueevm.github.io/DINOSPIZZA/menu'
     },
     {
       title: 'Travel App',
       image: 'assets/projects/mobile-2.jpg',
-      category: 'mobile'
+      category: 'mobile',
+      url: 'https://josueevm.github.io/DINOSPIZZA/menu'
     },
     {
       title: 'Social Media UI',
       image: 'assets/projects/mobile-3.jpg',
-      category: 'mobile'
+      category: 'mobile',
+      url: 'https://josueevm.github.io/DINOSPIZZA/menu'
     }
   ];
 
