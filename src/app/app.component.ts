@@ -73,9 +73,9 @@ export class App {
     },
     {
       title: 'Creative Agency',
-      image: 'assets/projects/web-3.jpg',
+      image: 'assets/projects/imagen3.png',
       category: 'web',
-      url: 'https://josueevm.github.io/DINOSPIZZA/menu'
+      url: 'https://josueevm.github.io/MODALE/'
     },
     {
       title: 'App Design',
