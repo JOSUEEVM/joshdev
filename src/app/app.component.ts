@@ -32,23 +32,29 @@ export class App {
       url: 'https://wa.me/529961080106',
       className: 'whatsapp'
     },
-    {
+    /*{
       name: 'Facebook',
       icon: 'bi bi-facebook',
       url: 'https://www.facebook.com/share/14WSKcJbu2G/',
       className: 'facebook'
-    },
+    },*/
     {
       name: 'Instagram',
       icon: 'bi bi-instagram',
       url: 'https://www.instagram.com/josuemx092?igsh=MWZxeGpvM3ByMXZ0ZQ==',
       className: 'instagram'
     },
-    {
+    /*{
       name: 'TikTok',
       icon: 'bi bi-tiktok',
       url: 'https://www.tiktok.com/@jvmdev117?_r=1&_t=ZS-94oj8aHb4XV',
       className: 'tiktok'
+    },*/
+    {
+      name: 'LinkedIn',
+      icon: 'bi bi-linkedin',
+      url: 'https://www.linkedin.com/in/josue-emanuel-varguez-marin-5871253b2',
+      className: 'linkedin'
     },
     {
       name: 'GitHub',
@@ -72,7 +78,7 @@ export class App {
       url: 'https://josueevm.github.io/Herbolario/'
     },
     {
-      title: 'Creative Agency',
+      title: 'Modale',
       image: 'assets/projects/imagen3.png',
       category: 'web',
       url: 'https://josueevm.github.io/MODALE/'
