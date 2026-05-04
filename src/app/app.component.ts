@@ -37,13 +37,13 @@ export class App {
       icon: 'bi bi-facebook',
       url: 'https://www.facebook.com/share/14WSKcJbu2G/',
       className: 'facebook'
-    },*/
+    },
     {
       name: 'Instagram',
       icon: 'bi bi-instagram',
       url: 'https://www.instagram.com/josuemx092?igsh=MWZxeGpvM3ByMXZ0ZQ==',
       className: 'instagram'
-    },
+    },*/
     /*{
       name: 'TikTok',
       icon: 'bi bi-tiktok',
